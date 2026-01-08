@@ -7,7 +7,7 @@
 ---
 
 ### 📡 System Status
-I am an independent researcher driven by the challenge of **Binary Instrumentation** and **Kernel-Level Analysis**. My work exists because there´s a guy better than me.
+I am an independent researcher of **Binary Instrumentation** and **Kernel-Level Analysis**. My work exists because there´s a guy better than me.
 
 * **Focus:** Writing code that touches physical memory without the OS knowing.
 * **Philosophy:** "If you can reconstruct the SDK, you own the engine."
