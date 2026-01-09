@@ -40,20 +40,13 @@ A zero-footprint spatial awareness tool for **Escape from Tarkov**.
 * **Architecture:** Zero-copy pipeline; raw memory structs are piped to a **Netty-based (Java)** backend for ultra-low latency external rendering.
 * **Sync:** Bi-linear interpolation for GameWorld-to-Map coordinate translation.
 
-#### 🎯 [CS-Internal-Framework](https://github.com/Milanecha/cs-internal)
+#### 🎯 [CS-Internal](https://github.com/Milanecha/cs-internal)
 `[STATUS: ABANDONED]` `[TYPE: INTERNAL]`
 Modular instrumentation framework for **Counter-Strike 2**.
 * **Dynamic Analysis:** Runtime parser for the **Source 2 Schema System**, eliminating the need for hardcoded offsets.
 * **Hooking:** **Shadow VMT** placement in `.data` sections to bypass standard `.rdata` integrity checks.
 * **Rendering:** DX11 hook implementing **State-Block preservation** to prevent overlay flickering and context corruption.
 * **Stealth:** CRT-Free environment; imports resolved via **PEB walking** and custom syscall wrappers.
-
-#### 🛡️ [Valorant-Security-Lab](https://github.com/Milanecha/val-security-lab)
-`[STATUS: ABANDONEN-DETECTED]` `[TYPE: POST-MORTEM]`
-A technical autopsy of the **Vanguard (VGK)** user-mode environment.
-* **The Approach:** Attempted a Kernel-User shared memory bridge via IRP hooking.
-* **The Failure:** Flagged due to **CR3 register cache invalidation** delays during manual context switching, leading to timing discrepancies.
-* **Forensics:** Post-ban analysis confirmed **PTE** flag manipulation triggered a generic heuristic scan.
 
 #### ⚙️ [Unity-SDK-Gen](https://github.com/Milanecha/unity-sdk-gen)
 `[STATUS: ACTIVE]` `[TYPE: AUTOMATION]`
